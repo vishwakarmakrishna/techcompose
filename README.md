@@ -1,16 +1,27 @@
-# techcompose
+# Flutter Movie Streaming App
 
-A new Flutter project.
+This Flutter project implements a Movie Streaming App based on the provided Figma design.
+
+## Features
+
+- **Smooth Navigation:** The app features a seamless and intuitive navigation experience.
+- **State Management:** Utilizes effective state management techniques for a responsive user interface.
+- **UI Design:** Ensures a visually appealing and responsive UI design based on the Figma prototype.
+- **Data Persistence:** Basic data persistence is incorporated to enhance the app's functionality.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow the steps below to get the project up and running on your local machine.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/vishwakarmakrishna/techcompose.git
