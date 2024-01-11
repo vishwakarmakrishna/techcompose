@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 extension CustomExtension on Widget {
-  Widget setbg(ImageProvider i) {
+  Widget setbg(ImageProvider i, {BoxFit? fit}) {
     return DecoratedBox(
       decoration: BoxDecoration(
           image: DecorationImage(
         image: i,
-        fit: BoxFit.cover,
+        fit: fit ?? BoxFit.cover,
       )),
       child: this,
     );

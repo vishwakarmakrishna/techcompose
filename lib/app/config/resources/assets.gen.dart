@@ -19,9 +19,12 @@ class $AssetsImagesGen {
   /// File path: assets/images/back.png
   AssetGenImage get back => const AssetGenImage('assets/images/back.png');
 
-  /// File path: assets/images/clarity_download-line.png
-  AssetGenImage get clarityDownloadLine =>
-      const AssetGenImage('assets/images/clarity_download-line.png');
+  /// File path: assets/images/close.png
+  AssetGenImage get close => const AssetGenImage('assets/images/close.png');
+
+  /// File path: assets/images/download.png
+  AssetGenImage get download =>
+      const AssetGenImage('assets/images/download.png');
 
   /// File path: assets/images/generos.png
   AssetGenImage get generos => const AssetGenImage('assets/images/generos.png');
@@ -81,6 +84,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/poster5.png
   AssetGenImage get poster5 => const AssetGenImage('assets/images/poster5.png');
 
+  /// File path: assets/images/poster6.png
+  AssetGenImage get poster6 => const AssetGenImage('assets/images/poster6.png');
+
   /// File path: assets/images/profile.png
   AssetGenImage get profile => const AssetGenImage('assets/images/profile.png');
 
@@ -91,7 +97,8 @@ class $AssetsImagesGen {
   List<AssetGenImage> get values => [
         accountBackground,
         back,
-        clarityDownloadLine,
+        close,
+        download,
         generos,
         hidden,
         homeBackground,
@@ -109,6 +116,7 @@ class $AssetsImagesGen {
         poster3,
         poster4,
         poster5,
+        poster6,
         profile,
         search
       ];
